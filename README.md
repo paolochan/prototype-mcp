@@ -20,7 +20,7 @@ This project is for learning to convert FastAPI servers into MCP servers.
 Clone the repo and set up a virtual environment:
 
 ```bash
-git clone https://github.com/<your-username>/Prototype-mcp.git
+git clone https://github.com/paolochan/Prototype-mcp.git
 cd Prototype-mcp
 
 python3 -m venv venv
