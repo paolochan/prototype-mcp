@@ -18,7 +18,7 @@ mcp = FastApiMCP(app, name= "MCP server",
                  description="MCP server")
 
 #Mounting MCP
-mcp.mount()
+mcp.mount_http()
 
 #Database set up
 DATABASE_URL = "sqlite:///./test.db"
@@ -28,6 +28,7 @@ engine = create_engine(DATABASE_URL, connect_args={"check_same_thread": False})
 SessionLocal = sessionmaker(autocommit= False, autoflush=False,bind=engine)
 
 Base = declarative_base()
+
 
 class User(Base):
     __tablename__ = "users"
