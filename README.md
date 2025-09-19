@@ -29,3 +29,12 @@ venv\Scripts\activate      # Windows
 
 pip install -r requirements.txt
 ```
+
+---
+
+## 🛜 Remote use
+```bash
+uvicorn main:app
+ngrok http 8000
+```
+Add URL to connector
