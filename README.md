@@ -37,4 +37,4 @@ pip install -r requirements.txt
 uvicorn main:app
 ngrok http 8000
 ```
-Add URL to connector
+Add URL/mcp to connector 
